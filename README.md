@@ -1,6 +1,6 @@
-# lyx2pdf :notebook_with_decorative_cover:
+# lyx2pdfMulti :notebook_with_decorative_cover:
 
-Github action to compile Lyx/Latex documents and convert to pdf
+Github action to compile multiple Lyx/Latex documents and convert to pdf, revamped from [lyx2pdf](https://github.com/vaggeliskls/lyx2pdf-action).
 
 ## Example
 
@@ -18,7 +18,7 @@ jobs:
       - name: Generate Pdf from lyx
         uses: vaggeliskls/lyx2pdf@v1
         with:
-          root_file: main.lyx
+          root_file: main.lyx,second.lyx
 ```
 
 > The PDF file will be in the same folder as that of the Lyx source

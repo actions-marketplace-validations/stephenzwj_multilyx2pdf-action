@@ -1,9 +1,9 @@
-name: Lyx2Pdf
-description: Github Action for generating pdf from lyx
-author: Vaggeliskls <vaggeliskls@gmail.com>
+name: Lyx2PdfMulti
+description: Github Action for generating pdfs from multiple lyx
+author: stephen <stephenzwj@gmail.com>
 inputs:
   root_file:
-    description: The root lyx file to be compiled
+    description: The root lyx fils to be compiled, seperated by comma
     required: true
 runs:
   using: docker
