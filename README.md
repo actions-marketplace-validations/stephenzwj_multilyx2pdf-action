@@ -1,4 +1,4 @@
-# lyx2pdfMulti :notebook_with_decorative_cover:
+# multilyx2pdf :notebook_with_decorative_cover:
 
 Github action to compile multiple Lyx/Latex documents and convert to pdf, revamped from [lyx2pdf](https://github.com/vaggeliskls/lyx2pdf-action).
 
