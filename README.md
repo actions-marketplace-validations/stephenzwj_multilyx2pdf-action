@@ -16,7 +16,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
       - name: Generate Pdf from lyx
-        uses: vaggeliskls/lyx2pdf@v1
+        uses: stephenzwj/multilyx2pdf@v1
         with:
           root_file: main.lyx,second.lyx
 ```
@@ -36,7 +36,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Generate Pdf from lyx
-        uses: vaggeliskls/lyx2pdf@v1
+        uses: stephenzwj/multilyx2pdf@v1
         with:
           root_file: main.lyx
 
@@ -65,7 +65,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Generate Pdf from lyx
-        uses: vaggeliskls/lyx2pdf@v1
+        uses: stephenzwj/multilyx2pdf@v1
         with:
           root_file: main.lyx
 
