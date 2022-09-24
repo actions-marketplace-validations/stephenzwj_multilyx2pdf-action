@@ -1,5 +1,4 @@
-FROM ghcr.io/vaggeliskls/lyx2pdf-action:latest
-LABEL org.opencontainers.image.authors="Vaggelis Kalligiannakis <vaggeliskls@gmail.com>"
+FROM ghcr.io/stephenzwj/multilyx2pdf-action:latest
 COPY LICENSE /LICENSE
 COPY README.md /README.md
 # Copies your code file from your action repository to the filesystem path `/` of the container
