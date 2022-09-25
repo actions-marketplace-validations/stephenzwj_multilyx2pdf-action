@@ -1,13 +1,5 @@
-FROM ubuntu:latest
-WORKDIR /data
-VOLUME /data
+FROM ghcr.io/vaggeliskls/lyx2pdf-action:1.0.4
 
-ENV DEBIAN_FRONTEND=noninteractive
-
-RUN apt-get update && apt-get install software-properties-common texlive-full git-all -y
-
-RUN add-apt-repository ppa:lyx-devel/release
-RUN apt-get update || true
-RUN apt-get install lyx -y
+RUN git-all -y
 
 RUN rm -rf /var/lib/apt/lists/*
